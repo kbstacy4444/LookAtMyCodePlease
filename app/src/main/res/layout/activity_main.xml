@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kbstacy.quizapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="508dp"
+        android:orientation="vertical"
+        android:background="@drawable/therealquestion">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What does it all mean?"
+            android:textSize="34sp"
+            android:textColor="#FF0"
+            android:id="@+id/qst_One"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/one_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who cares"
+                />
+
+            <Button
+                android:id="@+id/one_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"
+                android:onClick="correctOne"
+                />
+            <Button
+                android:id="@+id/one_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¯\_(ツ)_/¯"
+                />
+            <Button
+                android:id="@+id/one_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAKE"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you lying?"
+            android:textSize="34sp"
+            android:textColor="#FF0"
+            android:id="@+id/q_Two"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/two_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+
+            <Button
+                android:id="@+id/two_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAYBE"
+                />
+            <Button
+                android:id="@+id/two_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHO CARES"
+                />
+            <Button
+                android:id="@+id/two_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick the best number."
+            android:textSize="34sp"
+            android:textColor="#FF0"
+            android:id="@+id/q_Three"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/three_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45"
+                />
+
+            <Button
+                android:id="@+id/three_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                />
+            <Button
+                android:id="@+id/three_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18"
+                />
+            <Button
+                android:id="@+id/three_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why is it the best."
+            android:textSize="34sp"
+            android:textColor="#FF0"
+            android:id="@+id/q_Four"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/four_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="it is a cosmic number"
+                android:layout_marginLeft="95dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
